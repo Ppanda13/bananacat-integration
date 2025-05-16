@@ -150,7 +150,7 @@ public class UserAccountEntity {
     }
     
     @Transactional
-    public ResponseEntity<?> updateUserAccount(UserAccountRepository userrepository, PasswordEncoder passwordEncoder) {
+    public ResponseEntity<?> UpdateUserAccount(UserAccountRepository userrepository, PasswordEncoder passwordEncoder) {
         // if (this.email == null || this.email.isBlank()) {
         //     return ResponseEntity.badRequest().body("Email is required to update the user account.");
         // }
